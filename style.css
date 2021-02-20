@@ -44,7 +44,6 @@ body {
 .linkedin {
     width: 3%;
     height: auto; 
-
 }
 
 .title-1 {
@@ -69,5 +68,24 @@ h1 {
 .navigation li a {
     color: white;
     text-decoration: unset;
+}
 
+.column {
+    float: left;
+    width: 40%;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+#about-me {
+    height: 400px;
+}
+
+#projects{
+    height: 200px;
+    background-color: #E8EAEC;
 }
